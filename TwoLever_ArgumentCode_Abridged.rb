@@ -19,7 +19,7 @@ for instant in 1...Infinity
         exit                                                                       
     else                                                                           
         can_affect_future_state = false                                            
-        puts "No, you cannot do that either, so you don't have free will at this instant in time…"
+        puts "Nope, sorry, you don't have free will at this instant in time…"
     end                                                                            
     sleep 3                                                                        
 end  
