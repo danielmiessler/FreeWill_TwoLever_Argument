@@ -4,8 +4,10 @@
 ###  http://danielmiessler.com/arguments/free_will/two_lever_argument/             
                                                                                    
 ###  It maintains that there are two variables that allow you to affect            
-###  a future state of the universe: 1) the ability to affect a previous ###  state   or the ability to control the laws of physics that govern the
-###  transition from one state to another. If you are not able to control ###  one of these, then you cannot affect a future state of the universe.
+###  a future state of the universe: 1) the ability to affect a previous 
+###  state or the ability to control the laws of physics that govern the
+###  transition from one state to another. If you are not able to control 
+###  one of these, then you cannot affect a future state of the universe.
                                                                                    
 ###  This application models each instant since the big bang and checks            
 ###  our ability to do either of these at that instant.                            
@@ -59,7 +61,11 @@ for instant in 1...Infinity
         exit                                                                       
     else                                                                           
         can_affect_future_state = false                                            
-        puts "No, you cannot do that either, so you don't have free will at this      instant in time…"
+        puts "No, you cannot do that either, so you don't have free will at this instant in time…"
     end                                                                            
     sleep 3                                                                        
 end  
+
+# The point here is that we all have the intuition that our perceived
+# participation must be able to have an affect on the next state of the
+# universe. What this shows is that this intuition is very likely mistaken.
